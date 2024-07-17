@@ -1,0 +1,283 @@
+@charset 'utf-8';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Radio Canada', 'Noto Sans JP', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+html {
+  font-size: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.site-header img {
+  margin-bottom: 100px;
+
+}
+
+.header-logo img {
+  width: 100%;
+}
+
+.site-nav ul {
+  text-align: start;
+}
+
+
+.site-nav {
+  position: static;
+  width: 80%;
+  margin: 0 auto;
+  background-color: transparent;
+  flex-grow: 1;
+  align-items: start;
+  justify-content: start;
+  display: flex;
+}
+
+.site-nav ul li {
+  margin-bottom: 1.5em;
+}
+
+.site-nav a {
+  font-size: 1rem;
+}
+
+.site-nav-toggle {
+  display: none;
+}
+
+.site-nav ul {
+  text-align: start;
+}
+
+.header-sns {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  flex-grow: 1;
+}
+
+.header-sns a {
+  margin: 0 8px;
+}
+
+.container {
+  margin-left: 300px;
+}
+
+.wrapper {
+  max-width: 900px;
+  padding: 80px 20px;
+  margin: 0 auto;
+}
+
+.site-header {
+  width: 300px;
+  height: 100%;
+  background-color: #fff;
+  padding: 40px 50px 30px 45px;
+  position: fixed;
+  top: 0;
+
+}
+
+.header-gnav {
+  background-color: #fff;
+  padding: 0;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logo-container img {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+}
+
+.mv {
+  height: 100vh;
+  background: url(../img/mv-bg@2x.jpg) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-left: 200px;
+
+}
+
+.mv-img {
+  max-width: 550px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.text-overlay1 {
+  position: absolute;
+  bottom: 100px;
+  left: 20px;
+  padding: 10px;
+}
+
+.main-text-date {
+  font-size: 15.84px;
+  background-color: #fff;
+}
+
+.main-text-eng {
+  font-size: 29px;
+  background-color: #fff;
+}
+
+.main-text-jap {
+  font-size: 29px;
+  background-color: #fff;
+}
+
+
+.backnumber-title {
+  padding: 33px;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.first {
+  padding: 0px;
+  font-size: 25px;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+
+.second {
+  font-size: 11px;
+}
+
+
+.backnumber-back01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: #ecf4f9;
+  text-align: center;
+
+}
+
+.backnumber-back02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: #fbf3d2;
+  text-align: center;
+}
+
+.backnumber-back03 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: #f9f2eb;
+  text-align: center;
+}
+
+.backnumber-back04 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: #fae8c2;
+  text-align: center;
+}
+
+.backnumber-back05 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: #e2efe7;
+  text-align: center;
+}
+
+.backnumber-back06 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: #f2f5fb;
+  text-align: center;
+}
+
+.backnumber-date {
+  color: #000000;
+  font-size: 9.52px;
+
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.backnumber-img {
+  max-width: 50%;
+  max-height: 50%;
+  object-fit: contain;
+  margin: 30px 145px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+}
+
+
+.backnumber-img {
+  box-shadow:
+    1px 1px 6px 0 rgba(0, 0, 0, .25),
+    0 0 20px 0 rgba(0, 0, 0, .15);
+}
+
+
+
+@media screen and (min-width: 768px) {}
